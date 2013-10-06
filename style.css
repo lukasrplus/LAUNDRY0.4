@@ -1,0 +1,24 @@
+.content {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.content h1 {
+  font-family: Helvetica Neue;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+}
+
+.content h2 {
+  font-family: Helvetica Neue;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 40px;
+  color: white;
+}
