@@ -1,24 +1,52 @@
-.content {
+body {
+  font-family: Helvetica Neue;
+  text-align: center;
+}
+
+.topcontent {
   background-color: black;
   margin-left: auto;
   margin-right: auto;
   max-width: 960px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   padding-top: 15px;
 }
 
-.content h1 {
-  font-family: Helvetica Neue;
+h1 {
   text-align: center;
   font-weight: bolder;
   font-size: 40px;
   color: white;
 }
 
-.content h2 {
-  font-family: Helvetica Neue;
+h2 {
   text-align: center;
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
+}
+
+nav {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: solid 2px white;
+}
+
+.navbar {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0px 40px 0px 40px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  margin: 0px 40px 0px 40px;
+}
+
+.maincontent {
+  background-color: grey;
+
 }
