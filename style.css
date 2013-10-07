@@ -46,7 +46,12 @@ a:hover {
   margin: 0px 40px 0px 40px;
 }
 
-.maincontent {
+.maincontent h2 {
   background-color: grey;
-
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  font-size: 20px;
 }
